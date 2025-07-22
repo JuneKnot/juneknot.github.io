@@ -8,7 +8,7 @@ const audioElement = document.getElementById("audio");
 yesBtn.addEventListener("click", () => {
   yesBtn.style.display = 'none';
   question.innerHTML = "Art by Cheejae ヾ(≧▽≦*)o";
-  image.src=
+  gif.src= "../docs/desmos-graph.png";
   document.getElementById("audio").play();
 });
 
